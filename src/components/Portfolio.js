@@ -18,8 +18,8 @@ const Portfolio = () => {
         const content = (
             <>
                 <img className="portfolio-image-popupbox" src={hBooker} alt="Hotel Booking App..." />
-                <p>A group collaboration for a hotel booking application.</p>
-                <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://h-booker.herokuapp.com/", "_blank")}>https://h-booker.herokuapp.com/</a> 
+                <p>A group collaboration for a hotel booking application that allows the user to view offerings, select dates, and checkout. We used Mongoose, Moment, Stripe, MERN Stack and Axios.</p>
+                <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://h-booker.herokuapp.com/", "_blank")}>https://h-booker.herokuapp.com/</a>
                 <br></br>
                 <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/Patsax/h-booker")}>https://github.com/Patsax/h-booker</a>
             </>
@@ -42,9 +42,9 @@ const Portfolio = () => {
             <>
                 <img className="portfolio-image-popupbox" src={workDay} alt="Work Day Scheduler..." />
                 <p>A simple calendar application that allows a user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.</p>
-                <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://dghooley.github.io/workDayScheduler/", "_blank")}>https://dghooley.github.io/workDayScheduler/</a> 
+                <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://dghooley.github.io/workDayScheduler/", "_blank")}>https://dghooley.github.io/workDayScheduler/</a>
                 <br></br>
-                <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://dghooley.github.io/workDayScheduler/")}>https://dghooley.github.io/workDayScheduler/</a>
+                <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/dghooley/workDayScheduler")}>https://github.com/dghooley/workDayScheduler</a>
             </>
         )
         PopupboxManager.open({ content })
@@ -64,9 +64,9 @@ const Portfolio = () => {
             <>
                 <img className="portfolio-image-popupbox" src={runBuddy} alt="Run Buddy App..." />
                 <p>Built using simple HTML and CSS, this website offers the user fitness training services.</p>
-                <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://dghooley.github.io/run-buddy/", "_blank")}>https://dghooley.github.io/run-buddy/</a> 
+                <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://dghooley.github.io/run-buddy/", "_blank")}>https://dghooley.github.io/run-buddy/</a>
                 <br></br>
-                <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://dghooley.github.io/run-buddy/")}>https://dghooley.github.io/run-buddy/</a>
+                <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/dghooley/run-buddy")}>https://github.com/dghooley/run-buddy</a>
             </>
         )
         PopupboxManager.open({ content })
@@ -85,8 +85,8 @@ const Portfolio = () => {
         const content = (
             <>
                 <img className="portfolio-image-popupbox" src={where2watch} alt="Movie/Show Search Engine..." />
-                <p>This group project was created to utilize 3rd party APIs to browse a library of shows and movies.</p>
-                <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://saadsyed98.github.io/Where2Watch/", "_blank")}>https://saadsyed98.github.io/Where2Watch/</a> 
+                <p>This group project was created to utilize 3rd party APIs to browse a library of shows and movies. We used HTML, CSS, JavaScript, jQuery, Foundation, Axios, Font Awesome, Skeleton, Normalize and IMDB's API.</p>
+                <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://saadsyed98.github.io/Where2Watch/", "_blank")}>https://saadsyed98.github.io/Where2Watch/</a>
                 <br></br>
                 <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/saadsyed98/Where2Watch.git")}>https://github.com/saadsyed98/Where2Watch.git</a>
             </>
@@ -113,7 +113,7 @@ const Portfolio = () => {
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                     </div>
                     {/* - */}
-                    <div className="portfolio-image-box" onClick={openPopupboxWorkDay}> 
+                    <div className="portfolio-image-box" onClick={openPopupboxWorkDay}>
                         <img className="portfolio-image" src={workDay} alt="Work Day Scheduler..." />
                         <div className="overflow"></div>
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
@@ -125,7 +125,7 @@ const Portfolio = () => {
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                     </div>
                     {/* - */}
-                    <div className="portfolio-image-box" onClick={openPopupboxWhere2Watch}> 
+                    <div className="portfolio-image-box" onClick={openPopupboxWhere2Watch}>
                         <img className="portfolio-image" src={where2watch} alt="API Search Engine..." />
                         <div className="overflow"></div>
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
