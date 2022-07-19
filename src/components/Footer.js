@@ -11,6 +11,9 @@ import {
     TwitterShareButton,
 } from "react-share";
 
+import Resume from '../assets/Resume.pdf'
+import { FaGithubSquare, FaFilePdf, FaLinkedin } from 'react-icons/fa'
+
 const Footer = () => {
     return (
         <div className="footer">
@@ -68,13 +71,20 @@ const Footer = () => {
                             >
                                 <RedditIcon className="mx-3" size={36} />
                             </RedditShareButton>
-*/}
                             <LinkedinShareButton
                                 url={"https://www.linkedin.com/in/derick-hooley/"}
                                 quote={"Fullstack Developer"}
                             >
                                 <LinkedinIcon className="mx-3" size={36} />
                             </LinkedinShareButton>
+                            */}
+
+                            <a href={"https://www.linkedin.com/in/derick-hooley/"} target="_blank" rel="nonreferrer"><FaLinkedin className="mx-3" size={42} /></a>
+
+                            <a href={"https://github.com/dghooley"}><FaGithubSquare className="mx-3" size={43} />
+                            </a>
+
+                            <a href={Resume} target="_blank" rel="nonreferrer"><FaFilePdf className="mx-3" size={39} /></a>
                         </div>
                         <p className="pt-3 text-center">
                             Copyright&copy;

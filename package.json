@@ -28,6 +28,8 @@
     "react-dom": "^16.14.0",
     "react-github-button": "^0.1.11",
     "react-hook-form": "^7.30.0",
+    "react-icons": "^3.11.0",
+    "react-pdf": "^5.7.2",
     "react-popupbox": "^2.0.9",
     "react-responsive-carousel": "^3.2.23",
     "react-scripts": "^5.0.0",
@@ -67,6 +69,7 @@
     ]
   },
   "devDependencies": {
+    "copy-webpack-plugin": "^11.0.0",
     "tslint": "^5.20.1"
   }
 }
