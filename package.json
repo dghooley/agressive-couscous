@@ -42,7 +42,7 @@
     "svgo": "^2.8.0",
     "trim-newlines": "^4.0.2",
     "tsparticles": "^1.42.1",
-    "typescript": "^2.9.2",
+
     "web-vitals": "^2.1.4",
     "yargs-parser": "^21.0.1"
   },
@@ -52,7 +52,6 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  
   "browserslist": {
     "production": [
       ">0.2%",
