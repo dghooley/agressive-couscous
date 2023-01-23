@@ -1,5 +1,5 @@
 import React from "react"
-import hBooker from "../Images/hBooker.png";
+// import hBooker from "../Images/hBooker.png";
 import workDay from "../Images/workDay.png";
 import runBuddy from "../Images/runBuddy.png";
 import where2watch from "../Images/where2watch.png";
@@ -107,11 +107,7 @@ const Portfolio = () => {
             <div className="container">
                 <h1 className="text-uppercase text-center py-5">portfolio</h1>
                 <div className="image-box-wrapper row-cols-auto justify-content-center">
-                    <div className="portfolio-image-box" onClick={openPopupboxHBooker}>
-                        <img className="portfolio-image" src={hBooker} alt="Hotel Booking App..." />
-                        <div className="overflow"></div>
-                        <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
-                    </div>
+
                     {/* - */}
                     <div className="portfolio-image-box" onClick={openPopupboxWorkDay}>
                         <img className="portfolio-image" src={workDay} alt="Work Day Scheduler..." />
@@ -132,7 +128,7 @@ const Portfolio = () => {
                     </div>
                 </div>
             </div>
-            <PopupboxContainer {...popupboxConfigHBooker} />
+
             <PopupboxContainer {...popupboxConfigWorkDay} />
             <PopupboxContainer {...popupboxConfigRunBuddy} />
             <PopupboxContainer {...popupboxConfigWhere2Watch} />
